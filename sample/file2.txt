@@ -1,0 +1,13 @@
+/**
+ * Created by santosh on 5/3/16.
+ */
+var app = angular.module('app', ['ngMaterial']);
+
+
+app.controller("control1", function($scope){
+    console.log("Hello World!!");
+});
+
+app.controller('AppCtrl', function($scope) {
+    $scope.imagePath = 'img/washedout.png';
+})
